@@ -1,0 +1,16 @@
+# this block should be replaced in /user_name/.dbt/profiles.yml
+# replace the ? with your account id.
+# replace the password with the one I provided to you.
+my_dbt_project:
+  outputs:
+    dev:
+      account: KMRSSXX-WS26080
+      database: JR_LAB_DB?
+      password: <password>
+      role: JR_LAB_DE_ROLE?
+      schema: public
+      threads: 1
+      type: snowflake
+      user: jr_lab_user?
+      warehouse: JR_LAB_WH?
+  target: dev
