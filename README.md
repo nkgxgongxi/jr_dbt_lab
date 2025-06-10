@@ -25,9 +25,12 @@ pip install dbt-core dbt-snowflake
 ```bash
 dbt init
 ```
-You’ll be prompted with the following:
+You’ll be prompted with a few questions, depending on whether you already have a dbt project defined:
+* Your dbt project name.
 * Database: Choose 1 for Snowflake.
+* database information: account, user;
 * Authentication method: Select 1 for password.
+* Ask for password.
 * Threads: Enter 1 for single-threaded execution.
 
 ## 4. Test Run the Project
